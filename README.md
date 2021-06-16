@@ -1,7 +1,9 @@
 # mpw: My Personal Web
+
 ## a collection of web technologies for my personal use
 
 ### LICENSING
+
 the code is public. but it is unlicensed and 100% under
 my copyright. this means you are legally not allowed to
 reuse this code.
