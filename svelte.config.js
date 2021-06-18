@@ -10,7 +10,6 @@ const config = {
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
 		//target: '#svelte'
-		appDir: 'app',
 		paths: {
 			// site root on GitHub Pages
 			assets: '/mpw'
