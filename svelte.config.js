@@ -12,7 +12,8 @@ const config = {
 		//target: '#svelte'
 		paths: {
 			// site root on GitHub Pages
-			assets: '/mpw'
+			assets: '/mpw',
+			base: '/mpw'
 		},
 		adapter: adapter({
 			pages: 'gh-pages',
