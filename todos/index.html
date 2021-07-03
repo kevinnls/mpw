@@ -2,24 +2,24 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.png" />
+		<link rel="icon" href="/mpw/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<title>Todos</title>
 
 		
 
-		<link rel="modulepreload" href="/mpw/_app/start-c6d3299d.js">
+		<link rel="modulepreload" href="/mpw/_app/start-cda804b2.js">
 		<link rel="modulepreload" href="/mpw/_app/chunks/vendor-2f7c43bc.js">
 		<link rel="modulepreload" href="/mpw/_app/chunks/paths-45dac81d.js">
-		<link rel="modulepreload" href="/mpw/_app/pages/__layout.svelte-c300c093.js">
-		<link rel="modulepreload" href="/mpw/_app/pages/todos/index.svelte-d3b5a46f.js">
+		<link rel="modulepreload" href="/mpw/_app/pages/__layout.svelte-97b67be0.js">
+		<link rel="modulepreload" href="/mpw/_app/pages/todos/index.svelte-5b35b3b4.js">
 		<link rel="stylesheet" href="/mpw/_app/assets/start-a8cd1609.css">
 		<link rel="stylesheet" href="/mpw/_app/assets/pages/__layout.svelte-d81fe92b.css">
 		<link rel="stylesheet" href="/mpw/_app/assets/pages/todos/index.svelte-ef0435f2.css">
 
 		<script type="module">
-			import { start } from "/mpw/_app/start-c6d3299d.js";
+			import { start } from "/mpw/_app/start-cda804b2.js";
 			start({
 				target: document.body,
 				paths: {"base":"/mpw","assets":"/mpw"},
@@ -32,8 +32,8 @@
 					status: 200,
 					error: null,
 					nodes: [
-						import("/mpw/_app/pages/__layout.svelte-c300c093.js"),
-						import("/mpw/_app/pages/todos/index.svelte-d3b5a46f.js")
+						import("/mpw/_app/pages/__layout.svelte-97b67be0.js"),
+						import("/mpw/_app/pages/todos/index.svelte-5b35b3b4.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -64,7 +64,7 @@
 
 <div class="todos svelte-dmxqmd"><h1>Todos</h1>
 
-	<form class="new svelte-dmxqmd" action="/todos.json" method="post"><input name="text" aria-label="Add todo" placeholder="+ tap to add a todo" class="svelte-dmxqmd"></form>
+	<form class="new svelte-dmxqmd" action="/mpw/todos.json" method="post"><input name="text" aria-label="Add todo" placeholder="+ tap to add a todo" class="svelte-dmxqmd"></form>
 
 	
 </div></main>
@@ -74,7 +74,7 @@
 
 
 
-	<script type="svelte-data" url="/todos.json">{"status":200,"statusText":"","headers":{"content-type":"application/json"},"body":"[]"}</script>
+	<script type="application/json" data-type="svelte-data" data-url="/todos.json">{"status":200,"statusText":"","headers":{"content-type":"application/json"},"body":"[]"}</script>
 </div>
 	</body>
 </html>
