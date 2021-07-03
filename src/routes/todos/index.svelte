@@ -55,7 +55,7 @@
 
 	<form
 		class="new"
-		action="${base}/todos.json"
+		action="{base}/todos.json"
 		method="post"
 		use:enhance={{
 			result: async (res, form) => {
