@@ -1,10 +1,11 @@
 <script context="module" lang="ts">
+	import { base } from '$app/paths';
 	import { enhance } from '$lib/form';
 	import type { Load } from '@sveltejs/kit';
 
 	// see https://kit.svelte.dev/docs#loading
 	export const load: Load = async ({ fetch }) => {
-		const res = await fetch('/todos.json');
+		const res = await fetch(`${base}/todos.json`);
 
 		if (res.ok) {
 			const todos = await res.json();
@@ -54,7 +55,7 @@
 
 	<form
 		class="new"
-		action="/todos.json"
+		action=`${base}/todos.json`
 		method="post"
 		use:enhance={{
 			result: async (res, form) => {
